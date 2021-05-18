@@ -1,0 +1,38 @@
+algoritmo "estadoCivil"
+var
+nome
+idade
+salario
+estadoCivil
+
+inicio
+
+ESCREVAL ("insira seu nome: ");
+            LEIA (nome)
+
+            ESCREVAL ("Digite sua idade: ");
+            LEIA 9idade0
+
+            ESCREVAL ("insira seu salario:");
+            LEIA (salario)
+
+            ESCREVAL ("insira seu estado civil, tal como s(solteiro), c(casado), v(viuvo) ou d(divorciado:");
+            LEIA estadoCivil
+
+           SE (nome == "" )
+           
+               ESCREVAL ("não tem nada escrito!");
+           
+           SENÃO SE (idade >=150)
+           
+               ESCREVAL ("você é muito velho!");
+           
+           SENÃO SE (salario == 0 ) 
+           
+               ESCREVAL ("va ganhar algum dinheiro!");
+           
+           SENÃO
+               ESCREVAL ("validado!");
+
+FIM
+                  

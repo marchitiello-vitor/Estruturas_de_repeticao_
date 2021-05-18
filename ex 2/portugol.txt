@@ -1,0 +1,32 @@
+algoritmo "nome e senha"
+var
+user
+senha
+
+inicio
+
+FAÇA
+           
+            ESCREVAL ("Digite seu username:");
+            LEIA (user)
+
+            ESCREVAL ("Digite sua senha:");
+            LEIA (senha)
+
+                FAÇA
+                
+                SE (senha == "")
+                
+                    ESCREVAL ("nah nah nah, não tem nenhuma senha digitada!");
+                
+                SENÃO SE (user == senha )
+                
+                ESCREVA ("No no no, os dois não pode ser iguais!, ponha novamente!");                  
+                
+                SENÃO 
+                ESCREVAL ("Correto meu nobre, adicionado!");
+                                                   
+                ENQUANTO (falso);
+
+                break;
+ENQUANTO (verdade);

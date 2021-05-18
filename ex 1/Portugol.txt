@@ -1,0 +1,20 @@
+algoritmo "notas"
+var
+nota
+
+inicio
+
+FAÇA
+                   
+            ESCREVAL ("Digite a nota:");
+            LEIA (nota)
+
+            SE (nota MAIOR 10)
+            
+                ESCREVAL ("no no no, numero errado!");
+            
+            SENÃO {
+                ESCREVAL("Correto meu nobre");
+                ESCREVAL("Fim do programa");
+            
+ENQUANTO (falso);
